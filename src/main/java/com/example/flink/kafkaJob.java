@@ -12,7 +12,7 @@ import java.util.Arrays;
 public class kafkaJob {
 
     public static void main(String[] args)  throws Exception{
-        final String bootstrapServers = args.length > 0 ? args[0] : "broker:9092";
+        final String bootstrapServers = args.length > 0 ? args[0] : "broker:29092";
 
         //1. 创建执行环境
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
